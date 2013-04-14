@@ -1,10 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:100,300,400,100italic|Muli:300,400|Oxygen:400,300,700);
 
 header div {
-	background: url(../img/fondo-header.jpg);
+	background: url(../img/background-header.jpg);
 	background-size: 100% 100%;
-	height: 150px;
-	width:960px;
+	height: 300px;
+	margin:0 auto;
+	width:1002px;
 }
 
 header div hgroup{
@@ -14,28 +15,32 @@ header div hgroup{
 	vertical-align: top;
 	width: auto;
 }
+
 header div hgroup h2{
 
 	color: #303030;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 40px;
-	margin:0px;
-	padding: 35px 5px 5px 5px;
-	text-shadow: rgba(255,255,255,9.9) 2px 2px 10px;
-}
-
-header div hgroup h3{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 26px;
-	margin: 0px;
+	font-family: 'Muli', sans-serif;
+	font-size: 72px;
+	font-weight: 400;
+	margin:140px 0px 0px 0px;
 	padding: 0px;
 	text-shadow: rgba(255,255,255,9.9) 2px 2px 10px;
 }
 
+header div hgroup h3{
+	font-family: 'Lato', sans-serif;
+	font-size: 48px;
+	font-weight: 300;
+	margin:-15px 0px 0px 0px;
+	padding: 0px;
+	text-shadow: rgba(255,255,255,0.9) 2px 2px 10px;
+}
+
 header div img{
 	display: inline-block;
-    padding: 15px 10px 15px 20px;
-	width:110px;
+	margin: 130px 0px 0px 30px;
+    padding: 0px;
+	width:150px;
 
 }
 
@@ -48,25 +53,97 @@ nav{
 
 nav ul{
 	list-style-type: none;
-	padding: 0px 16px;
+	padding: 0px 15px;
 	margin: 0px;
 	
 }
 
 nav ul li{
+	
 	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
+	font-size: 17px;
 	display: inline;
 
 }
 
 nav ul li a{
+	color: #86B404;
 	display: inline-block;
-	padding: 18px 16px;
+	padding: 18px 17px;
 	text-decoration: none;
 }
 
 nav ul li a:hover{
 	background: url(../img/fondo-nav.png);
 	color: #FF5D55;
+}
+
+@media screen and (max-width:1052px){
+	
+	header div {
+	background: url(../img/background-header.jpg);
+	background-size: 100% 100%;
+	height: auto;
+	
+	width:100%;
+}	
+
+	}
+
+@media screen and (max-width:1024px){
+	
+	header div {
+	background: url(../img/background-header.jpg);
+	background-size: 100% 100%;
+	height: 200px;
+	width:720px;
+}
+
+header div hgroup{
+	display: inline-block;	
+	height: 110px;
+	padding-right: 20px;
+	vertical-align: top;
+	width: auto;
+}
+header div hgroup h2{
+	font-size: 3em;
+	margin:2em 0em 0em 0em;
+}
+
+header div hgroup h3{
+	font-size: 2em;
+	margin:-0.5em 0em 0em 0em;
+}
+
+header div img{
+	display: inline-block;
+	margin: 5em 0em 0em 1em;
+    padding: 0px;
+	width:7em;
+
+}
+nav{
+	width: 100%;
+	height: 2.5em;
+}
+
+nav ul{
+	padding: 0em 1em;
+}
+
+nav ul li{
+	font-size: 0.8em;
+
+}
+
+nav ul li a{
+	padding: 0.9em 0.4em;
+}
+
+nav ul li a:hover{
+	background: url(../img/fondo-nav.png);
+	color: #FF5D55;
+}
+
 }

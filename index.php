@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Inicio | Ilecniva</title>
-		<meta name="viweport" content="width=device-width, maximun-escale1=1" />
+		<meta name="viewport" content="width=device-width, maximun-escale1=1" />
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/estilos.css" />
 		<link rel="stylesheet" type="text/css" href="css/header.css" />

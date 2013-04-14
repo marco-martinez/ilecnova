@@ -1,9 +1,9 @@
 <header>
 	<div>
-		<img src="img/logo.jpg" />
+		<img src="img/logo-ilecnova.png" />
 		<hgroup>
-			<h2>Ilecnova</h2>
-			<h3>Ingenieria en Energia Renovable</h3>
+			<h2>ilecnova</h2>
+			<h3>Ingeniería en Energía Renovable</h3>
 		</hgroup>
 	</div>
 </header>
