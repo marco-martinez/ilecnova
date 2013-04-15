@@ -15,13 +15,11 @@
 	<section id="contenedor">
 		<?php include("scripts/header.php"); ?>
  		<section>
+ 			
  			esto es el contenedor
+
  		</section>
 		<footer>
-			<ul>
-				<li>Contact</li>
-				<li>Historia</li>
-			</ul>
 		</footer>
 	<section>
 </body>

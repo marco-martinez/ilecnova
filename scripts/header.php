@@ -9,11 +9,12 @@
 </header>
 <nav>
 	<ul>
-		<li><a href="#">Paneles Solares</a></li>
-		<li><a href="#">Baterias</a></li>
-		<li><a href="#">Inversores</a></li>
-		<li><a href="#">Refrigeracion Solar</a></li>
-		<li><a href="#">Bombas Solares</a></li>
-		<li><a href="#">Calentadores Solares</a></li>
+		<li id="menu"><a href="#">Menu</a></li><!--
+		--><li><a href="#">Paneles Solares</a></li><!-- 
+		--><li><a href="#">Baterias</a></li><!-- 
+		--><li><a href="#">Inversores</a></li><!-- 
+		--><li><a href="#">Refrigeracion Solar</a></li><!-- 
+		--><li><a href="#">Bombas Solares</a></li><!-- 
+		--><li><a href="#">Calentadores Solares</a></li>
 	</ul>
 </nav>

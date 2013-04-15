@@ -4,6 +4,11 @@
 	margin:0 auto;
 	width: 1052px;
 }
+#contenedor section{
+	margin:0 auto;
+	width: 1002px;
+}
+
 body{
 	font-family: "Muli", sans-serif;
 	font-size: 16px;
@@ -11,10 +16,49 @@ body{
 }
 
 @media screen and (max-width:1052px){
-
-#contenedor{
-	margin:0 auto;
+ 	#contenedor{
 	width: 100%;
 }
+
+#contenedor section{
+	width: 100%;
+}
+
+}
+
+@media screen and (max-width:1024px){
+
+#contenedor{
+	width: 768px;
+}
+#contenedor section{
+	width: 738px;
+}
+
+
+}
+
+
+/* Empieza vista tablet 768px */
+@media screen and (max-width:768px){
+#contenedor{
+	width: 100%;
+}
+#contenedor section{
+	width: 100%;
+}
+
+}
+
+
+/* Empieza vista movil 620px */
+@media screen and (max-width:620px){
+#contenedor{
+	width: 480px;
+}
+#contenedor section{
+	width: 480px;
+}
+
 
 }
