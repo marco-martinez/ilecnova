@@ -57,8 +57,17 @@ body{
 	width: 480px;
 }
 #contenedor section{
-	width: 480px;
+	width: 438px;
 }
 
+}
 
+@media screen and (max-width: 479px){
+	#contenedor{
+	width: 320px;
+}
+#contenedor section{
+	width: 320px;
+}
+	
 }

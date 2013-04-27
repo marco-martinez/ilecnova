@@ -24,6 +24,6 @@
 		<footer>
 		</footer>
 	<section>
-	<script src="js/mostrarOcultar.js" ></script>
+	<script type="text/javascript" src="js/mostrarOcultar.js"></script>
 </body>
 </html>

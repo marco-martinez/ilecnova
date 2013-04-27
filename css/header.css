@@ -54,6 +54,10 @@ nav{
 	height: 55px;
 }
 
+nav a#btn-menu, nav a img{
+	display:none;
+}
+
 nav ul{
 	list-style-type: none;
 	padding: 0px 30px;
@@ -68,9 +72,8 @@ nav ul li{
 	display: inline;
 
 }
-nav a{
-	display:none;
-}
+
+
 
 nav ul li a{
 	color: #86B404;
@@ -284,16 +287,21 @@ nav{
 	width:438px;
 }
 
+nav a#btn-menu, nav a img{
+	display:block;
+}
+
+nav ul {
+	nav ul{
+		display: none;
+	}
+}
 
 nav ul li{
 	font-size: 1.2em;
 	display: block;
 	margin:0em;
 	padding: 0em;
-}
-
-nav a{
- display:block;
 }
 
 nav ul li a{
@@ -306,18 +314,51 @@ nav ul li a{
  	background-image:none;
  	background: green;
  }
- 
+
 
 }
-@media screen and (min-width: 480px){
+
+@media screen and (max-width: 479px){
+
+	header div{
+		background-position: -160px 0px;
+		background-size: auto 100%;
+		height: auto;
+		width: 100%;
+	}
+
+	header div img{
+		display: block;
+	margin-top:0px;
+	width: 7em;
+}
+	header div hgroup{
+		display: block;
+	margin:0 auto;
+	width: 280px;
+	}
+
+	header div hgroup h2{
+	font-size: 2.5em;
+}
+
+header div hgroup h3{
+	font-size: 1.2em;
+}
+
+nav{
+	height: auto;
+	width:100%;
+}
+	
+}
+
+
+@media screen and (min-width: 621px){
+
 	nav ul{
 		display: block !important;
 	}
 }
 
-@media screen and (max-width: 479px){
-	nav ul{
-		display: none;
-	}
-}
 

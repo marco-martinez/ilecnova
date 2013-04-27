@@ -8,7 +8,7 @@
 	</div>
 </header>
 <nav>
-	<a onclick="mostrarOcultar('mostrar')"><img src="img/menu.jpg" width="30px"/></a>
+	<a id="btn-menu" onclick="mostrarOcultar('mostrar')"><img src="img/menu.jpg" width="20px"/></a>
 	<ul  id="mostrar">
 		<li><a href="#">Paneles Solares</a></li><!-- 
 		--><li><a href="#">Baterias</a></li><!-- 
