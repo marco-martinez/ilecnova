@@ -68,7 +68,7 @@ nav ul li{
 	display: inline;
 
 }
-nav ul li#menu{
+nav a{
 	display:none;
 }
 
@@ -243,8 +243,6 @@ header div hgroup h3{
 	font-size: 1.5em;
 }
 
-
-
 nav ul li{
 		font-size: 0.7em;
 		padding:0% 0% 0% 2.5%;
@@ -286,9 +284,6 @@ nav{
 	width:438px;
 }
 
-nav ul{
-display: block;
-}
 
 nav ul li{
 	font-size: 1.2em;
@@ -297,7 +292,7 @@ nav ul li{
 	padding: 0em;
 }
 
-nav ul li#menu{
+nav a{
  display:block;
 }
 
@@ -311,5 +306,18 @@ nav ul li a{
  	background-image:none;
  	background: green;
  }
+ 
 
 }
+@media screen and (min-width: 480px){
+	nav ul{
+		display: block !important;
+	}
+}
+
+@media screen and (max-width: 479px){
+	nav ul{
+		display: none;
+	}
+}
+

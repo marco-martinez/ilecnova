@@ -8,9 +8,9 @@
 	</div>
 </header>
 <nav>
-	<ul>
-		<li id="menu"><a href="#">Menu</a></li><!--
-		--><li><a href="#">Paneles Solares</a></li><!-- 
+	<a onclick="mostrarOcultar('mostrar')"><img src="img/menu.jpg" width="30px"/></a>
+	<ul  id="mostrar">
+		<li><a href="#">Paneles Solares</a></li><!-- 
 		--><li><a href="#">Baterias</a></li><!-- 
 		--><li><a href="#">Inversores</a></li><!-- 
 		--><li><a href="#">Refrigeracion Solar</a></li><!-- 
