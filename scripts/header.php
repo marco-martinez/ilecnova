@@ -1,6 +1,6 @@
 <header>
 	<div>
-		<img src="img/logo-ilecnova.png" />
+		<img src="img/logo-oficial.png" />
 		<hgroup>
 			<h2>ilecnova</h2>
 			<h3>Ingeniería en Energía Renovable</h3>
@@ -8,7 +8,7 @@
 	</div>
 </header>
 <nav>
-	<a id="btn-menu" onclick="mostrarOcultar('mostrar')"><img src="img/menu.jpg" width="20px"/></a>
+	<a id="btn-menu" onclick="mostrarOcultar('mostrar')"><img src="img/menu-button.svg" /></a>
 	<ul  id="mostrar">
 		<li><a href="#">Paneles Solares</a></li><!-- 
 		--><li><a href="#">Baterias</a></li><!-- 

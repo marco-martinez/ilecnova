@@ -5,8 +5,12 @@
 	width: 1052px;
 }
 #contenedor section{
+	
+	background: white;
+	height: 250px;
 	margin:0 auto;
 	width: 1002px;
+
 }
 
 body{

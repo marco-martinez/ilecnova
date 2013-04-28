@@ -7,11 +7,10 @@
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/estilos.css" />
 		<link rel="stylesheet" type="text/css" href="css/header.css" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css" />
 		<script type="text/javascript" src="js/prefixfree.min.js" ></script>
 		<script type="text/javascript" src="js/jquery-1.9.1.min.js" ></script>
 		
-
-
 	</head>
 <body>
 	<section id="contenedor">
@@ -21,9 +20,8 @@
  			esto es el contenedor
 
  		</section>
-		<footer>
-		</footer>
-	<section>
+		<?php include("scripts/footer.php"); ?>
+	</section>
 	<script type="text/javascript" src="js/mostrarOcultar.js"></script>
 </body>
 </html>
