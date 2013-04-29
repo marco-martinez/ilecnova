@@ -1,22 +1,24 @@
 footer {
+
 	background: #F9F2E7;
-	height: 200px;
+	height: 252px;
 	margin:0 auto;
 	width:1002px;
-}
-
-footer div{
-	display: inline-block;
-	height: 170px;
-	margin:20px 10px 10px 10px;
-	vertical-align: top;
-	float: left;
-	width: auto;
 }
 
 footer div a h3{
 	display: block;
 	margin: 0px;
+}
+
+footer div div a{
+	display: block;
+	height: 52px;
+}
+
+footer div div a img{
+	margin: 10px 10px 5px 10px;
+	width: 32px;
 }
 
 footer div ul{
@@ -42,13 +44,34 @@ footer div ul li a:hover{
 }
 
 footer #redes-sociales{
-	margin:0px;
-	height: auto;
+	display: inline-block;
+	height: 52px;
+	width: auto;
 }
 
-footer #redes-sociales div{
-	display:inline-block;
-	margin:0 auto;
-	width: 501px;
-	height: 30px;
+footer div#div-googleplus{
+ 	background: #be2102;
+ }
+
+footer div#div-facebook{
+ 	background: #294173;
+ }
+
+footer div#div-twitter{
+ 	background: #258ab7;
+ }
+
+.footer-div-redes-sociales{
+ 	display:inline-block;
+ 	height: 52px;
+ 	width: 334px;
+ }
+
+.footer-div{
+	display: inline-block;
+	height: 170px;
+	margin:20px 10px 10px 10px;
+	vertical-align: top;
+	float: left;
+	width: auto;
 }
