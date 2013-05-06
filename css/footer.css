@@ -12,13 +12,28 @@ footer div a h3{
 }
 
 footer div div a{
+	color:white;
 	display: block;
+	text-decoration: none;
+	transition:all 0.5s ease;
 	height: 52px;
 }
 
+footer div div a:hover{
+	text-shadow: rgba(255,255,255,9.9) 0px 0px 10px;
+}
+
 footer div div a img{
+	display: inline-block;
 	margin: 10px 10px 5px 10px;
 	width: 32px;
+}
+
+footer div div a p{
+	font-size: 1.2em;
+	margin: 15px 0px 0px 0px;
+	display: inline-block;
+	vertical-align: top;
 }
 
 footer div ul{
