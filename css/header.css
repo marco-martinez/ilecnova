@@ -139,7 +139,7 @@ nav ul li a{
 
 /* Empieza resolusion 1024 desde aqui todo es fijo */
 @media screen and (max-width:1024px){
-	
+
 	header div {
 	background: url(../img/background-ilecnova2.jpg);
 	background-size: 100% 100%;
@@ -173,7 +173,7 @@ header div img{
 
 }
 nav{
-	width: 96%;
+	width: 738px;
 	height: 2.5em;
 }
 

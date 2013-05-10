@@ -1,17 +1,22 @@
 footer {
 
 	background: #F9F2E7;
-	height: 252px;
+	height: 347px;
 	margin:0 auto;
-	width:1002px;
+	padding-top: 70px;
+	width:100%;
 }
 
-footer div a h3{
+footer div div a h3{
+	color: rgb(54, 45, 42);
 	display: block;
 	margin: 0px;
+	font-size: 1.5em;
+	font-weight: 300;
+	font-family: 'oxygen', sans-serif;
 }
 
-footer div div a{
+footer div div div a{
 	color:white;
 	display: block;
 	text-decoration: none;
@@ -19,67 +24,92 @@ footer div div a{
 	height: 52px;
 }
 
-footer div div a:hover{
+footer div div div a:hover{
 	text-shadow: rgba(255,255,255,9.9) 0px 0px 10px;
 }
 
-footer div div a img{
+footer div div div a img{
 	display: inline-block;
 	margin: 10px 10px 5px 10px;
 	width: 32px;
 }
 
-footer div div a p{
+footer div div div a p{
 	font-size: 1.2em;
 	margin: 15px 0px 0px 0px;
 	display: inline-block;
 	vertical-align: top;
 }
 
-footer div ul{
+footer div div ul{
 	list-style-type: none;
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 
 }
 
-footer div ul li{
+footer div div ul li{
 	margin: 0px;
 }
 
-footer div ul li a{
+footer div div ul li a{
 	display: block;
 	color:#ee700a;
 	text-decoration: none;
 	padding: 2px 0px;
 }
 
-footer div ul li a:hover{
-	color:#f3ad25;
+footer div div ul li a:hover{
+	color: rgb(54, 45, 42);
 }
 
 footer #redes-sociales{
 	display: inline-block;
 	height: 52px;
-	width: auto;
+	width: 100%;
+	margin-top: 20px;
 }
 
-footer div#div-googleplus{
+footer div div#div-googleplus{
  	background: #be2102;
  }
 
-footer div#div-facebook{
+footer div div#div-facebook{
  	background: #294173;
  }
 
-footer div#div-twitter{
+footer div div#div-twitter{
  	background: #258ab7;
  }
+
+footer #copyright{
+	color: rgb(122, 114, 114);
+	background-color: rgb(54, 45, 42);
+	height: 50px;
+	width: 100%;
+	margin-top:	15px;
+
+}
+footer #copyright p{
+	font-size: 0.8em;
+	text-align: center;
+	margin: 0px;
+	padding-top: 15px;
+}
+
+footer #contenedor-footer{
+	width: 1002px;
+	height: 282px;
+	margin:0 auto;
+	
+}
 
 .footer-div-redes-sociales{
  	display:inline-block;
  	height: 52px;
- 	width: 334px;
+ 	width: 32%;
+	margin: 0 0.6%;
+	border-radius: 5px;
  }
 
 .footer-div{
@@ -89,4 +119,51 @@ footer div#div-twitter{
 	vertical-align: top;
 	float: left;
 	width: auto;
+}
+
+
+/* Empieza resolusion 1024 desde aqui todo es fijo */
+@media screen and (max-width:1024px){
+footer div div a h3{
+	font-size: 1em;
+}
+
+footer div div div a img{
+	margin: 8px 10px 5px 10px;
+	width: 25px;
+}
+
+footer div div div a p{
+	margin: 12px 0px 0px 0px;
+	font-size: 0.8em;
+}
+
+footer div div ul li a{
+	font-size: 0.78em;
+}
+
+footer #contenedor-footer{
+	width: 738px;
+	height: 282px;
+	margin:0 auto;
+	
+}
+
+	.footer-div{
+	display: inline-block;
+	height: 170px;
+	margin:10px 5px 10px 10px;
+	vertical-align: top;
+	float: left;
+	width: auto;
+}
+
+.footer-div-redes-sociales{
+ 	height: 40px;
+ }
+
+ .footer-div-redes-sociales a{
+ 	height: 40px;
+ }
+
 }

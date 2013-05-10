@@ -1,4 +1,5 @@
 <footer>
+	<div id="contenedor-footer">
 	<div id="footer-solar" class="footer-div">
 		<a ><h3>Solar</h3></a>
 		<ul id="menu-solar">
@@ -71,4 +72,10 @@
 			</a>
 		</div>
 	</div><!---->
+</div><!---->
+	<div id="copyright">
+		<p>
+			Ilecnova: Ingeniería en Energía Renovable. Todos los derechos reservados.
+		</p>
+	</div>
 </footer>
