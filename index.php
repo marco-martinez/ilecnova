@@ -15,10 +15,62 @@
 <body>
 	<section id="contenedor">
 		<?php include("scripts/header.php"); ?>
- 		<section>
- 			
- 			esto es el contenedor
+ 		<section id="cuerpo">
+ 			<section class="slider">
+	 			<article>
+	 				Slider
+	 			</article>
+	 		</section><!--
+	 		--><section class="art-nivel1">
+	 			<article>
+	 				<h1>Energia Renovable en la Rivera Maya</h1>
+	 				<p>
 
+	 				</p>
+	 				<p>
+	 				</p>
+	 			</article>
+ 			</section><!--
+ 			--><section class="art-nivel2">
+	 			<article>
+	 				<h2>Sistema Solar</h2>
+	 				<p>
+
+	 				</p>
+	 				<p>
+	 				</p>
+	 			</article>
+	 		</section>
+	 		<section class="art-nivel2">
+	 			<article >
+	 				<h2>Sistema Eolico</h2>
+	 				<p>
+
+	 				</p>
+	 				<p>
+	 				</p>
+	 			</article>
+	 		</section>
+	 		<section class="art-nivel2">
+	 			<article>
+	 				<h2>Sistema Hibrido Solar</h2>
+	 				<p>
+
+	 				</p>
+	 				<p>
+	 				</p>
+	 			</article>
+	 		</section>
+	 		<section class="art-destacado">
+	 			<article>
+	 				<h2>Interconexion a la Red</h2>
+	 				<p>
+
+	 				</p>
+	 				<p>
+	 				</p>
+	 			</article>
+	 		</section>
  		</section>
 		<?php include("scripts/footer.php"); ?>
 	</section>

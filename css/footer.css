@@ -7,7 +7,7 @@ footer {
 	width:100%;
 }
 
-footer div div a h3{
+footer div div h3{
 	color: rgb(54, 45, 42);
 	display: block;
 	margin: 0px;
@@ -115,16 +115,20 @@ footer #contenedor-footer{
 .footer-div{
 	display: inline-block;
 	height: 170px;
+	float: left;
 	margin:20px 10px 10px 10px;
 	vertical-align: top;
-	float: left;
 	width: auto;
 }
 
 
 /* Empieza resolusion 1024 desde aqui todo es fijo */
 @media screen and (max-width:1024px){
-footer div div a h3{
+footer {
+	height: 270px;
+}
+
+footer div div h3{
 	font-size: 1em;
 }
 
@@ -144,14 +148,20 @@ footer div div ul li a{
 
 footer #contenedor-footer{
 	width: 738px;
-	height: 282px;
+	height: 220px;
 	margin:0 auto;
-	
+}
+footer #copyright{
+	margin-top: 0px;
+}
+
+footer #redes-sociales{
+	margin-top: 10px;
 }
 
 	.footer-div{
 	display: inline-block;
-	height: 170px;
+	height: 135px;
 	margin:10px 5px 10px 10px;
 	vertical-align: top;
 	float: left;
@@ -167,3 +177,155 @@ footer #contenedor-footer{
  }
 
 }
+
+@media screen and (max-width:768px){
+footer {
+	height: 245px;
+	padding-top: 55px;
+}
+	footer div div h3{
+	font-size: 0.9em;
+}
+
+	footer div div ul li a{
+	font-size: 0.65em;
+}
+
+footer div div div a img{
+	margin: 5px 10px 0px 10px;
+	width: 25px;
+}
+
+footer div div div a p{
+	margin: 8px 0px 0px 0px;
+	font-size: 0.65em;
+}
+
+footer #contenedor-footer{
+	height: 195px;
+	width: 672px;
+}
+footer #copyright{
+	margin-top: 0px
+	}
+
+footer #redes-sociales{
+	margin-top: 10px;
+	height: 35px;
+}
+
+.footer-div{
+	height: 120px;
+}
+
+.footer-div-redes-sociales{
+ 	height: 35px;
+ }
+
+ .footer-div-redes-sociales a{
+ 	height: 35px;
+ }
+
+	}
+
+@media screen and (max-width: 712px){
+	
+	footer #contenedor-footer{
+	width: 646px;
+}
+}
+
+@media screen and (max-width: 672px){
+	footer #contenedor-footer{
+		width: 612px;
+	}
+
+	.footer-div{
+		margin: 10px 0px 10px 10px;
+	}
+
+}
+
+/* Empieza vista movil 620px */
+@media screen and (max-width:620px){
+
+	footer{
+		height: 1240px;
+		padding-top: 10px;
+	}
+	footer div div a{
+		color: rgb(60, 54, 44);
+	}
+	footer div div h3{
+	background-color: rgb(60, 54, 44);
+	border-radius: 3px;
+	color:rgb(248, 246, 242);
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 0% 1%;
+	text-align: center;
+	padding: 8px 0px;
+	width: 98%;
+	}
+
+	footer div div div a {
+		text-align: center;
+	}
+
+	footer div div div a img{
+		margin: 8px 10px 0px 10px;
+		width: 36px;
+	}
+
+	footer div div div a p{
+		margin: 6px 0px 0px 0px;
+		font-size: 2em;
+		
+	}
+
+	footer div div ul li{
+		border-radius: 5px;
+		background-color: #f5ce91;
+		text-align: center;
+		margin: 5px;
+		padding: 5px;
+	}
+
+	footer div div ul li a{
+		font-size: 1.2em;
+		font-weight: bold;
+	}
+
+
+	footer #contenedor-footer{
+		width: 438px;
+		height: 1190px;
+	}
+
+	footer #redes-sociales{
+		display: inline-block;
+		height: 180px;
+		width: 100%;
+	}
+
+.footer-div-redes-sociales{
+	 	display:block;
+	 	height: 50px;
+	 	width: 95%;
+		margin: 5px 2.5%;
+		border-radius: 5px;
+ 	}
+
+	.footer-div{
+		display: block;
+		height: auto;
+		margin: 0px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 479px){
+	footer #contenedor-footer{
+		width: 320px;
+	}
+

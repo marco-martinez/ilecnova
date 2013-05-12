@@ -4,10 +4,10 @@
 	margin:0 auto;
 	width: 100%;
 }
-#contenedor section{
+#contenedor #cuerpo{
 	
 	background: white;
-	height: 50px;
+	height: auto;
 	margin:0 auto;
 	width: 1002px;
 
@@ -18,6 +18,45 @@ body{
 	font-size: 16px;
 	font-weight: 300;
 }
+
+
+.art-destacado{
+	background-color: grey;
+	display: inline-block;
+	height: 300px;
+	margin:1%;
+	vertical-align: top;
+	width: 98%;
+}
+
+.art-nivel1{
+	background-color: grey;
+	display: inline-block;
+	height: 300px;
+	margin:1%;
+	vertical-align: top;
+	width: 40%;
+}
+
+.art-nivel2{
+	background-color: grey;
+	display: inline-block;
+	height: 300px;
+	margin:0.5%;
+	vertical-align: top;
+	width: 32%;
+}
+
+
+
+.slider{
+	background-color: grey;
+	display: inline-block;
+	height: 300px;
+	width: 56%;
+	margin:1%;
+}
+
 
 @media screen and (max-width:1052px){
  	#contenedor{
@@ -58,7 +97,7 @@ body{
 /* Empieza vista movil 620px */
 @media screen and (max-width:620px){
 #contenedor{
-	width: 480px;
+	width: 100%;
 }
 #contenedor section{
 	width: 438px;
@@ -68,7 +107,7 @@ body{
 
 @media screen and (max-width: 479px){
 	#contenedor{
-	width: 320px;
+	width: 100%;
 }
 #contenedor section{
 	width: 320px;

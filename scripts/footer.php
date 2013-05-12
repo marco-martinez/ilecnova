@@ -1,7 +1,7 @@
 <footer>
 	<div id="contenedor-footer">
 	<div id="footer-solar" class="footer-div">
-		<a ><h3>Solar</h3></a>
+		<h3>Solar</h3>
 		<ul id="menu-solar">
 			<li><a href="#">Baterias Solares</a></li>
 			<li><a href="#">Bombas Solares</a></li>
@@ -12,25 +12,25 @@
 		</ul>
 	</div>
 	<div id="footer-accesorios" class="footer-div">
-		<a ><h3>Accesorios</h3></a>
+		<h3>Accesorios</h3>
 		<ul id="menu-accesorios">
 			<li><a href="#">Accesorios diversos</a></li>
 		</ul>
 	</div>
 	<div id="footer-refrigeracion" class="footer-div">
-		<a ><h3>Refrigeracion</h3></a>
+		<h3>Refrigeracion</h3>
 		<ul id="menu-refrigeracion">
 			<li><a href="#">Refrigeracion Solar</a></li>
 		</ul>
 	</div>
 	<div id="footer-eolica" class="footer-div">
-		<a ><h3>Eolica</h3></a>
+		<h3>Eolica</h3>
 		<ul id="menu-eolica">
 			<li><a href="#">Generadores Eolicos</a></li>
 		</ul>
 	</div>
 	<div id="footer-empresa" class="footer-div">
-		<a ><h3>Empresa</h3></a>
+		<h3>Empresa</h3>
 		<ul id="menu-empresa">
 			<li><a href="#">Blog</a></li>
 			<li><a href="#">Contacto</a></li>
@@ -40,7 +40,7 @@
 		</ul>
 	</div>
 	<div id="footer-recursos" class="footer-div">
-		<a ><h3>Recursos</h3></a>
+		<h3>Recursos</h3>
 		<ul id="menu-recursos">
 			<li><a href="#">Calculo de Consumo</a></li>
 			<li><a href="#">Catalogos</a></li>
@@ -59,7 +59,7 @@
 			<a href="#">
 				<img src="img/facebook.png"/>
 				<p>
-					/ilecnova.energiarenovables
+					/ilecnova
 				</p>
 			</a>
 		</div><!--
