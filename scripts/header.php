@@ -2,7 +2,7 @@
 	<div>
 		<img src="img/logo-oficial.png" />
 		<hgroup>
-			<h2>ilecnova</h2>
+			<h2>ilecnova</h2>				
 			<h3>Ingeniería en Energía Renovable</h3>
 		</hgroup>
 	</div>

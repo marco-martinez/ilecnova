@@ -124,6 +124,7 @@ footer #contenedor-footer{
 }
 
 
+
 /* EMPIEZA ESTILOS QUE SE MOSTRARA HASTA UNA RESOLUCION MAXIMA DE 1024 PX */
 @media screen and (max-width:1024px){
 	footer {

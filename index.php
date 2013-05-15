@@ -16,61 +16,53 @@
 	<section id="contenedor">
 		<?php include("scripts/header.php"); ?>
  		<section id="cuerpo">
- 			<section class="slider">
-	 			<article>
+	 			<article class="slider">
 	 				Slider
-	 			</article>
-	 		</section><!--
-	 		--><section class="art-nivel1">
-	 			<article>
+	 			</article><!--
+	 		--><article class="art-nivel1">
 	 				<h1>Energia Renovable en la Rivera Maya</h1>
+	 					<p>
+	 						La energía renovable es aquella la energía que se obtiene de fuentes naturales virtualmente inagotables, 
+	 						unas por la inmensa cantidad de energía que contienen, y otras porque son capaces de regenerarse por medios 
+	 						naturales.
+	 					</p>
+	 					<p>
+	 						Ilecnova te brinda calidad en sus servicios para un mejor desempeño de tu sistema. Estamos seguros de 
+	 						que un buen diseño permite obtener grandes... más
+	 					</p>
+	 			</article><!--
+ 			--><article class="art-nivel2">
+	 				<h2 class="titulo1">Sistema Solar</h2>
+	 				<p>
+
+	 				</p>
+	 				<p>
+	 				</p>
+	 			</article><!--
+	 			--><article class="art-nivel2">
+	 				<h2 class="titulo1">Sistema Eolico</h2>
+	 				<p>
+
+	 				</p>
+	 				<p>
+	 				</p>
+	 			</article><!--
+	 			--><article class="art-nivel2">
+	 				<h2 class="titulo1">Sistema Hibrido Solar</h2>
+	 				<p>
+
+	 				</p>
+	 				<p>
+	 				</p>
+	 			</article><!--
+	 			--><article class="art-destacado">
+	 				<h2 class="titulo1">Interconexion a la Red</h2>
 	 				<p>
 
 	 				</p>
 	 				<p>
 	 				</p>
 	 			</article>
- 			</section><!--
- 			--><section class="art-nivel2">
-	 			<article>
-	 				<h2>Sistema Solar</h2>
-	 				<p>
-
-	 				</p>
-	 				<p>
-	 				</p>
-	 			</article>
-	 		</section>
-	 		<section class="art-nivel2">
-	 			<article >
-	 				<h2>Sistema Eolico</h2>
-	 				<p>
-
-	 				</p>
-	 				<p>
-	 				</p>
-	 			</article>
-	 		</section>
-	 		<section class="art-nivel2">
-	 			<article>
-	 				<h2>Sistema Hibrido Solar</h2>
-	 				<p>
-
-	 				</p>
-	 				<p>
-	 				</p>
-	 			</article>
-	 		</section>
-	 		<section class="art-destacado">
-	 			<article>
-	 				<h2>Interconexion a la Red</h2>
-	 				<p>
-
-	 				</p>
-	 				<p>
-	 				</p>
-	 			</article>
-	 		</section>
  		</section>
 		<?php include("scripts/footer.php"); ?>
 	</section>

@@ -51,7 +51,7 @@ nav{
 	width: 1002px;
 }
 
-nav a#btn-menu, nav a img{
+nav a img, nav a#btn-menu{
 	display:none;
 	height: 35px;
 	margin: 0 auto;
@@ -77,8 +77,9 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-	background-size: 100% 100%;
+	
 	background: url(../img/fondo-nav.png);
+	background-size: 100% 100%;
 	color: #ee700a;
 }
 
@@ -107,7 +108,7 @@ nav ul li a:hover{
 	}
 
 	nav{
-		height: 45px;
+		height: 47px;
 		width: 95%;
 	}
 
@@ -305,7 +306,7 @@ nav ul li a:hover{
 	 	font-size: 1.2em;
 	}
 
-	 nav ul li a:hover, a:active{
+	 nav ul li a:active, a:hover{
 	 	background-image:none;
 	 	background: #f5ce91;
 	 }

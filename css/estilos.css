@@ -1,5 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:100,300,400,100italic|Muli:300,400|Oxygen:400,300,700);
 
+body{
+	font-family: "Muli", sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+body section#cuerpo h1{
+	font-size: 1.4em;
+	margin: 10px 5%;
+}
+
+body section#cuerpo p{
+	font-size: 1em;
+	text-align: justify;
+	margin: 15px 5%;
+}
+
 #contenedor{
 	margin:0 auto;
 	width: 100%;
@@ -11,12 +28,6 @@
 	margin:0 auto;
 	width: 1002px;
 
-}
-
-body{
-	font-family: "Muli", sans-serif;
-	font-size: 16px;
-	font-weight: 300;
 }
 
 
@@ -39,10 +50,10 @@ body{
 }
 
 .art-nivel2{
-	background-color: grey;
+	background-color: peru;
 	display: inline-block;
 	height: 300px;
-	margin:0.5%;
+	margin-left:1%;
 	vertical-align: top;
 	width: 32%;
 }
@@ -55,6 +66,12 @@ body{
 	height: 300px;
 	width: 56%;
 	margin:1%;
+}
+
+.titulo1{
+
+	font-size: 1.4em;
+	margin: 10px 5%;
 }
 
 
