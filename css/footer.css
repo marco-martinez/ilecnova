@@ -1,3 +1,5 @@
+
+/* EMPIEZA ESTILOS QUE SE MOSTRARA PARA PANTALLAS SUPERIORES A 1024 PX */
 footer {
 
 	background: #F9F2E7;
@@ -10,18 +12,18 @@ footer {
 footer div div h3{
 	color: rgb(54, 45, 42);
 	display: block;
-	margin: 0px;
+	font-family: 'oxygen', sans-serif;
 	font-size: 1.5em;
 	font-weight: 300;
-	font-family: 'oxygen', sans-serif;
+	margin: 0px;
 }
 
 footer div div div a{
 	color:white;
 	display: block;
+	height: 52px;
 	text-decoration: none;
 	transition:all 0.5s ease;
-	height: 52px;
 }
 
 footer div div div a:hover{
@@ -35,9 +37,9 @@ footer div div div a img{
 }
 
 footer div div div a p{
+	display: inline-block;
 	font-size: 1.2em;
 	margin: 15px 0px 0px 0px;
-	display: inline-block;
 	vertical-align: top;
 }
 
@@ -53,10 +55,10 @@ footer div div ul li{
 }
 
 footer div div ul li a{
-	display: block;
 	color:#ee700a;
-	text-decoration: none;
+	display: block;
 	padding: 2px 0px;
+	text-decoration: none;
 }
 
 footer div div ul li a:hover{
@@ -66,8 +68,8 @@ footer div div ul li a:hover{
 footer #redes-sociales{
 	display: inline-block;
 	height: 52px;
-	width: 100%;
 	margin-top: 20px;
+	width: 100%;
 }
 
 footer div div#div-googleplus{
@@ -83,158 +85,162 @@ footer div div#div-twitter{
  }
 
 footer #copyright{
-	color: rgb(122, 114, 114);
 	background-color: rgb(54, 45, 42);
+	color: rgb(122, 114, 114);
 	height: 50px;
-	width: 100%;
 	margin-top:	15px;
+	width: 100%;
 
 }
 footer #copyright p{
 	font-size: 0.8em;
-	text-align: center;
 	margin: 0px;
 	padding-top: 15px;
+	text-align: center;
 }
 
 footer #contenedor-footer{
-	width: 1002px;
 	height: 282px;
 	margin:0 auto;
+	width: 1002px;
 	
 }
 
 .footer-div-redes-sociales{
+	border-radius: 5px;
+	margin: 0 0.6%;
  	display:inline-block;
  	height: 52px;
  	width: 32%;
-	margin: 0 0.6%;
-	border-radius: 5px;
  }
 
 .footer-div{
 	display: inline-block;
-	height: 170px;
 	float: left;
+	height: 170px;
 	margin:20px 10px 10px 10px;
 	vertical-align: top;
 	width: auto;
 }
 
 
-/* Empieza resolusion 1024 desde aqui todo es fijo */
+/* EMPIEZA ESTILOS QUE SE MOSTRARA HASTA UNA RESOLUCION MAXIMA DE 1024 PX */
 @media screen and (max-width:1024px){
-footer {
-	height: 270px;
-}
+	footer {
+		height: 270px;
+	}
 
-footer div div h3{
-	font-size: 1em;
-}
-
-footer div div div a img{
-	margin: 8px 10px 5px 10px;
-	width: 25px;
-}
-
-footer div div div a p{
-	margin: 12px 0px 0px 0px;
-	font-size: 0.8em;
-}
-
-footer div div ul li a{
-	font-size: 0.78em;
-}
-
-footer #contenedor-footer{
-	width: 738px;
-	height: 220px;
-	margin:0 auto;
-}
-footer #copyright{
-	margin-top: 0px;
-}
-
-footer #redes-sociales{
-	margin-top: 10px;
-}
-
-	.footer-div{
-	display: inline-block;
-	height: 135px;
-	margin:10px 5px 10px 10px;
-	vertical-align: top;
-	float: left;
-	width: auto;
-}
-
-.footer-div-redes-sociales{
- 	height: 40px;
- }
-
- .footer-div-redes-sociales a{
- 	height: 40px;
- }
-
-}
-
-@media screen and (max-width:768px){
-footer {
-	height: 245px;
-	padding-top: 55px;
-}
 	footer div div h3{
-	font-size: 0.9em;
-}
+		font-size: 1em;
+	}
+
+	footer div div div a img{
+		margin: 8px 10px 5px 10px;
+		width: 25px;
+	}
+
+	footer div div div a p{
+		font-size: 0.8em;
+		margin: 12px 0px 0px 0px;
+	}
 
 	footer div div ul li a{
-	font-size: 0.65em;
-}
-
-footer div div div a img{
-	margin: 5px 10px 0px 10px;
-	width: 25px;
-}
-
-footer div div div a p{
-	margin: 8px 0px 0px 0px;
-	font-size: 0.65em;
-}
-
-footer #contenedor-footer{
-	height: 195px;
-	width: 672px;
-}
-footer #copyright{
-	margin-top: 0px
+		font-size: 0.78em;
 	}
 
-footer #redes-sociales{
-	margin-top: 10px;
-	height: 35px;
-}
-
-.footer-div{
-	height: 120px;
-}
-
-.footer-div-redes-sociales{
- 	height: 35px;
- }
-
- .footer-div-redes-sociales a{
- 	height: 35px;
- }
-
-	}
-
-@media screen and (max-width: 712px){
-	
 	footer #contenedor-footer{
-	width: 646px;
-}
+		height: 220px;
+		margin:0 auto;
+		width: 738px;
+	}
+	footer #copyright{
+		margin-top: 0px;
+	}
+
+	footer #redes-sociales{
+		margin-top: 10px;
+	}
+
+	.footer-div{
+		display: inline-block;
+		float: left;
+		height: 135px;
+		margin:10px 5px 10px 10px;
+		vertical-align: top;
+		width: auto;
+	}
+
+	.footer-div-redes-sociales{
+	 	height: 40px;
+	 }
+
+	 .footer-div-redes-sociales a{
+	 	height: 40px;
+	 }
+
+	}
+
+/* EMPIEZA ESTILOS QUE SE MOSTRARA HASTA UNA RESOLUCION MAXIMA DE 768 PX */
+@media screen and (max-width:768px){
+	footer {
+		height: 245px;
+		padding-top: 55px;
+	}
+	footer div div h3{
+		font-size: 0.9em;
+	}
+
+		footer div div ul li a{
+		font-size: 0.65em;
+	}
+
+	footer div div div a img{
+		margin: 5px 10px 0px 10px;
+		width: 25px;
+	}
+
+	footer div div div a p{
+		margin: 8px 0px 0px 0px;
+		font-size: 0.65em;
+	}
+
+	footer #contenedor-footer{
+		height: 195px;
+		width: 672px;
+	}
+	footer #copyright{
+		margin-top: 0px
+		}
+
+	footer #redes-sociales{
+		margin-top: 10px;
+		height: 35px;
+	}
+
+	.footer-div{
+		height: 120px;
+	}
+
+	.footer-div-redes-sociales{
+	 	height: 35px;
+	 }
+
+	 .footer-div-redes-sociales a{
+	 	height: 35px;
+	 }
+
 }
 
+
+/* EEMPIEZA ESTILOS QUE SE MOSTRARA HASTA UNA RESOLUCION MAXIMA DE 712 PX */
+@media screen and (max-width: 712px){
+		
+	footer #contenedor-footer{
+		width: 646px;
+	}
+}
+
+/* EMPIEZA ESTILOS QUE SE MOSTRARA HASTA UNA RESOLUCION MAXIMA DE 672 PX */
 @media screen and (max-width: 672px){
 	footer #contenedor-footer{
 		width: 612px;
@@ -246,26 +252,28 @@ footer #redes-sociales{
 
 }
 
-/* Empieza vista movil 620px */
+/* EMPIEZA ESTILOS QUE SE MOSTRARA HASTA UNA RESOLUCION MAXIMA DE 620 PX - VISTA MOVIL */
 @media screen and (max-width:620px){
 
 	footer{
 		height: 1240px;
 		padding-top: 10px;
 	}
+
 	footer div div a{
 		color: rgb(60, 54, 44);
 	}
+
 	footer div div h3{
-	background-color: rgb(60, 54, 44);
-	border-radius: 3px;
-	color:rgb(248, 246, 242);
-	font-size: 1.5em;
-	font-weight: bold;
-	margin: 0% 1%;
-	text-align: center;
-	padding: 8px 0px;
-	width: 98%;
+		background-color: rgb(60, 54, 44);
+		border-radius: 3px;
+		color:rgb(248, 246, 242);
+		font-size: 1.5em;
+		font-weight: bold;
+		margin: 0% 1%;
+		padding: 8px 0px;
+		text-align: center;
+		width: 98%;
 	}
 
 	footer div div div a {
@@ -278,17 +286,16 @@ footer #redes-sociales{
 	}
 
 	footer div div div a p{
-		margin: 6px 0px 0px 0px;
 		font-size: 2em;
-		
+		margin: 6px 0px 0px 0px;
 	}
 
 	footer div div ul li{
-		border-radius: 5px;
 		background-color: #f5ce91;
-		text-align: center;
+		border-radius: 5px;
 		margin: 5px;
 		padding: 5px;
+		text-align: center;
 	}
 
 	footer div div ul li a{
@@ -298,8 +305,8 @@ footer #redes-sociales{
 
 
 	footer #contenedor-footer{
-		width: 438px;
 		height: 1190px;
+		width: 438px;
 	}
 
 	footer #redes-sociales{
@@ -308,12 +315,12 @@ footer #redes-sociales{
 		width: 100%;
 	}
 
-.footer-div-redes-sociales{
+	.footer-div-redes-sociales{
+		border-radius: 5px;
+		margin: 5px 2.5%;
 	 	display:block;
 	 	height: 50px;
 	 	width: 95%;
-		margin: 5px 2.5%;
-		border-radius: 5px;
  	}
 
 	.footer-div{
@@ -324,6 +331,8 @@ footer #redes-sociales{
 	}
 }
 
+
+/* EMPIEZA ESTILOS QUE SE MOSTRARA HASTA UNA RESOLUCION MAXIMA DE 479 PX - VISTA MOVIL */
 @media screen and (max-width: 479px){
 	footer #contenedor-footer{
 		width: 320px;
