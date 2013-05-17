@@ -1,6 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:100,300,400,100italic|Muli:300,400|Oxygen:400,300,700);
 
 body{
+	background: url(../img/back-grass.jpg);
+	background-position: center;
 	font-family: "Muli", sans-serif;
 	font-size: 16px;
 	font-weight: 300;
@@ -26,6 +28,7 @@ body section#cuerpo p{
 	background: white;
 	height: auto;
 	margin:0 auto;
+	margin-bottom: 100px;
 	width: 1002px;
 
 }
@@ -58,7 +61,9 @@ body section#cuerpo p{
 	width: 32%;
 }
 
-
+.shadow {
+	box-shadow: 0px 15px 34px 0px black;
+}
 
 .slider{
 	background-color: grey;
@@ -80,8 +85,8 @@ body section#cuerpo p{
 	width: 100%;
 }
 
-#contenedor section{
-	width: 100%;
+#contenedor section#cuerpo{
+	width: 95%;
 }
 
 }
@@ -91,7 +96,7 @@ body section#cuerpo p{
 #contenedor{
 	width: 100%;
 }
-#contenedor section{
+#contenedor section#cuerpo{
 	width: 738px;
 }
 
@@ -104,7 +109,7 @@ body section#cuerpo p{
 #contenedor{
 	width: 100%;
 }
-#contenedor section{
+#contenedor section#cuerpo{
 	width: 95%;
 }
 
@@ -116,7 +121,7 @@ body section#cuerpo p{
 #contenedor{
 	width: 100%;
 }
-#contenedor section{
+#contenedor section#cuerpo{
 	width: 438px;
 }
 
@@ -126,7 +131,7 @@ body section#cuerpo p{
 	#contenedor{
 	width: 100%;
 }
-#contenedor section{
+#contenedor section#cuerpo{
 	width: 320px;
 }
 	

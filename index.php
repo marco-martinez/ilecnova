@@ -15,7 +15,7 @@
 <body>
 	<section id="contenedor">
 		<?php include("scripts/header.php"); ?>
- 		<section id="cuerpo">
+ 		<section id="cuerpo" class="shadow">
 	 			<article class="slider">
 	 				Slider
 	 			</article><!--

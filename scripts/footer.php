@@ -1,7 +1,8 @@
 <footer>
 	<div id="contenedor-footer">
 	<div id="footer-solar" class="footer-div">
-		<h3>Solar</h3>
+		<h3 class="menu-estandar">Solar</h3>
+		<a id="btn-solar" onclick="mostrarOcultar('menu-solar')" class="menu-movil"><h3>Solar</h3></a>
 		<ul id="menu-solar">
 			<li><a href="#">Baterias Solares</a></li>
 			<li><a href="#">Bombas Solares</a></li>
@@ -12,25 +13,29 @@
 		</ul>
 	</div>
 	<div id="footer-accesorios" class="footer-div">
-		<h3>Accesorios</h3>
+		<h3 class="menu-estandar">Accesorios</h3>
+		<a id="btn-accesorios" onclick="mostrarOcultar('menu-accesorios')" class="menu-movil"><h3>Accesorios</h3></a>
 		<ul id="menu-accesorios">
 			<li><a href="#">Accesorios diversos</a></li>
 		</ul>
 	</div>
 	<div id="footer-refrigeracion" class="footer-div">
-		<h3>Refrigeracion</h3>
+		<h3 class="menu-estandar">Refrigeracion</h3>
+		<a id="btn-refrigeracion" onclick="mostrarOcultar('menu-refrigeracion')" class="menu-movil"><h3>Refrigeracion</h3></a>
 		<ul id="menu-refrigeracion">
 			<li><a href="#">Refrigeracion Solar</a></li>
 		</ul>
 	</div>
 	<div id="footer-eolica" class="footer-div">
-		<h3>Eolica</h3>
+		<h3 class="menu-estandar">Eolica</h3>
+		<a id="btn-eolica" onclick="mostrarOcultar('menu-eolica')" class="menu-movil"><h3>Eolica</h3></a>
 		<ul id="menu-eolica">
 			<li><a href="#">Generadores Eolicos</a></li>
 		</ul>
 	</div>
 	<div id="footer-empresa" class="footer-div">
-		<h3>Empresa</h3>
+		<h3 class="menu-estandar">Empresa</h3>
+		<a id="btn-empresa" onclick="mostrarOcultar('menu-empresa')" class="menu-movil"><h3>Empresa</h3></a>
 		<ul id="menu-empresa">
 			<li><a href="#">Blog</a></li>
 			<li><a href="#">Contacto</a></li>
@@ -40,7 +45,8 @@
 		</ul>
 	</div>
 	<div id="footer-recursos" class="footer-div">
-		<h3>Recursos</h3>
+		<h3 class="menu-estandar">Recursos</h3>
+		<a id="btn-recursos" onclick="mostrarOcultar('menu-recursos')" class="menu-movil"><h3>Recursos</h3></a>
 		<ul id="menu-recursos">
 			<li><a href="#">Calculo de Consumo</a></li>
 			<li><a href="#">Catalogos</a></li>

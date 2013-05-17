@@ -1,5 +1,5 @@
 <header>
-	<div>
+	<div class="shadow">
 		<img src="img/logo-oficial.png" />
 		<hgroup>
 			<h2>ilecnova</h2>				
@@ -7,8 +7,8 @@
 		</hgroup>
 	</div>
 </header>
-<nav>
-	<a id="btn-menu" onclick="mostrarOcultar('mostrar')"><img src="img/menu-button.svg" /></a>
+<nav class="shadow">
+	<a id="btn-menu" onclick="mostrarOcultar('mostrar')"><img src="img/btn-menu-movil.png" /></a>
 	<ul  id="mostrar">
 		<li><a href="#">Paneles Solares</a></li><!-- 
 		--><li><a href="#">Baterias</a></li><!-- 

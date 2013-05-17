@@ -1,7 +1,7 @@
 /* EMPIEZA ESTILOS QUE SE MOSTRARA PARA PANTALLAS SUPERIORES A 1024 PX */
 header div {
-	background: url(../img/background-ilecnova2.jpg);
-	background-size: 100% 100%;
+	background: white;
+	box-shadow:0px -10px 20px 3px black;
 	height: 300px;
 	margin:0 auto;
 	width:1002px;
@@ -44,7 +44,7 @@ header div img{
 }
 
 nav{
-	background-color: #F9F2E7;
+	background-color: rgb(248, 246, 242);
 	height: 55px;
 	margin-top: 5px;
 	margin: 0 auto;
@@ -130,8 +130,6 @@ nav ul li a:hover{
 @media screen and (max-width:1024px){
 
 	header div {
-		background-size: 100% 100%;
-		background: url(../img/background-ilecnova2.jpg);
 		height: 200px;
 		width:738px;
 	}
@@ -280,7 +278,6 @@ nav ul li a:hover{
 
 	nav{
 		height: auto;
-		margin-top: 3px;
 		width:438px;
 	}
 
@@ -300,15 +297,21 @@ nav ul li a:hover{
 	}
 
 	nav ul li a{
-		padding: 0.2em 0%;
+		background-color: rgb(60, 54, 44);
+		border-radius: 3px;
+		color:rgb(248, 246, 242);
+		font-size: 1.5em;
+		font-weight: bold;
+		margin: 0.5% 1%;
+		padding: 8px 0px;
 		text-align: center;
-	 	display: block;
-	 	font-size: 1.2em;
+		width: 98%;
 	}
 
-	 nav ul li a:active, a:hover{
+	 nav ul li a:active,nav ul li a:hover{
+	 	background-color: rgb(60, 54, 44);
 	 	background-image:none;
-	 	background: #f5ce91;
+	 	color:rgb(248, 246, 242);
 	 }
 }
 
@@ -325,7 +328,7 @@ nav ul li a:hover{
 	header div hgroup{
 		display: block;
 		margin:0 auto;
-		margin-bottom: 10px;
+		padding-bottom: 10px;
 		width: 280px;
 	}
 

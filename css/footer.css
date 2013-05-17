@@ -2,7 +2,8 @@
 /* EMPIEZA ESTILOS QUE SE MOSTRARA PARA PANTALLAS SUPERIORES A 1024 PX */
 footer {
 
-	background: #F9F2E7;
+	background: rgba(248, 246, 242, 0.94);
+	box-shadow: 0px 0px 20px 3px black;
 	height: 347px;
 	margin:0 auto;
 	padding-top: 70px;
@@ -104,6 +105,14 @@ footer #contenedor-footer{
 	margin:0 auto;
 	width: 1002px;
 	
+}
+
+.menu-estandar{
+	display: block;
+}
+
+.menu-movil{
+	display: none;
 }
 
 .footer-div-redes-sociales{
@@ -257,7 +266,8 @@ footer #contenedor-footer{
 @media screen and (max-width:620px){
 
 	footer{
-		height: 1240px;
+		background: rgba(248, 246, 242, 0.95);
+		height: auto;
 		padding-top: 10px;
 	}
 
@@ -271,13 +281,14 @@ footer #contenedor-footer{
 		color:rgb(248, 246, 242);
 		font-size: 1.5em;
 		font-weight: bold;
-		margin: 0% 1%;
+		margin: 0.5% 1%;
 		padding: 8px 0px;
 		text-align: center;
 		width: 98%;
 	}
 
 	footer div div div a {
+		height: 50px !important;
 		text-align: center;
 	}
 
@@ -289,6 +300,10 @@ footer #contenedor-footer{
 	footer div div div a p{
 		font-size: 2em;
 		margin: 6px 0px 0px 0px;
+	}
+
+	footer div div ul{
+		display: none;
 	}
 
 	footer div div ul li{
@@ -306,7 +321,7 @@ footer #contenedor-footer{
 
 
 	footer #contenedor-footer{
-		height: 1190px;
+		height: auto;
 		width: 438px;
 	}
 
@@ -314,6 +329,14 @@ footer #contenedor-footer{
 		display: inline-block;
 		height: 180px;
 		width: 100%;
+	}
+
+	.menu-estandar{
+	display: none;
+	}
+
+	.menu-movil{
+		display: block;
 	}
 
 	.footer-div-redes-sociales{
@@ -338,4 +361,10 @@ footer #contenedor-footer{
 	footer #contenedor-footer{
 		width: 320px;
 	}
+}
 
+@media screen and (min-width: 621px){
+	footer div div ul{
+		display: block !important;
+	}
+}
