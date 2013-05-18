@@ -1,6 +1,8 @@
 <header>
 	<div class="shadow">
-		<img src="img/logo-oficial.png" />
+		<a href="#">
+			<img src="img/logo-oficial.png" /><!--
+		--></a>
 		<hgroup>
 			<h2>ilecnova</h2>				
 			<h3>Ingeniería en Energía Renovable</h3>
