@@ -16,11 +16,11 @@
 	<section id="contenedor">
 		<?php include("scripts/header.php"); ?>
  		<section id="cuerpo" class="shadow">
-	 			<article class="slider">
+	 			<article class="slider art-box">
 	 				Slider
 	 			</article><!--
-	 		--><article class="art-nivel1">
-	 				<h1>Energia Renovable en la Rivera Maya</h1>
+	 		--><article class="art-nivel1 art-box">
+	 				<h1 id="h-art-en">Energia Renovable en la Rivera Maya</h1>
 	 					<p>
 	 						La energía renovable es aquella la energía que se obtiene de fuentes naturales virtualmente inagotables, 
 	 						unas por la inmensa cantidad de energía que contienen, y otras porque son capaces de regenerarse por medios 
@@ -31,32 +31,32 @@
 	 						que un buen diseño permite obtener grandes... más
 	 					</p>
 	 			</article><!--
- 			--><article class="art-nivel2">
-	 				<h2 class="titulo1">Sistema Solar</h2>
+ 			--><article class="art-nivel2 art-box">
+	 				<h2 id="h-art-so" class="titulo1">Sistema Solar</h2>
 	 				<p>
 
 	 				</p>
 	 				<p>
 	 				</p>
 	 			</article><!--
-	 			--><article class="art-nivel2">
-	 				<h2 class="titulo1">Sistema Eolico</h2>
+	 			--><article class="art-nivel2 art-box">
+	 				<h2 id="h-art-eo" class="titulo1">Sistema Eolico</h2>
 	 				<p>
 
 	 				</p>
 	 				<p>
 	 				</p>
 	 			</article><!--
-	 			--><article class="art-nivel2">
-	 				<h2 class="titulo1">Sistema Hibrido Solar</h2>
+	 			--><article class="art-nivel2 art-box">
+	 				<h2 id="h-art-hi" class="titulo1">Sistema Hibrido Solar</h2>
 	 				<p>
 
 	 				</p>
 	 				<p>
 	 				</p>
 	 			</article><!--
-	 			--><article class="art-destacado">
-	 				<h2 class="titulo1">Interconexion a la Red</h2>
+	 			--><article class="art-destacado art-box">
+	 				<h2 id="h-art-in" class="titulo1">Interconexion a la Red</h2>
 	 				<p>
 
 	 				</p>

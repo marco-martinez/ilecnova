@@ -8,15 +8,35 @@ body{
 	font-weight: 300;
 }
 
-body section#cuerpo h1{
+body section#cuerpo h1, body section#cuerpo h2{
+	color: whitesmoke;
+	font-family: 'Lato', Arial;
 	font-size: 1.4em;
-	margin: 10px 5%;
+	font-weight: 100;
+	margin: 0;
+	padding: 10px 5%;
 }
 
 body section#cuerpo p{
-	font-size: 1em;
+	font-family: 'Lato', arial;
+	font-size: 1.2em;
 	text-align: justify;
 	margin: 15px 5%;
+}
+#h-art-en{
+	background-color: rgba(143,190,0,0.6);
+}
+#h-art-so{
+	background-color: rgba(218, 201, 7, 0.6);
+}
+#h-art-eo{
+	background-color: rgba(64,192,203,0.6);
+}
+#h-art-hi{
+	background-color: rgba(213, 147, 31, 0.59);
+}
+#h-art-in{
+	background-color: rgba(88, 153, 6, 0.6);	
 }
 
 #contenedor{
@@ -24,18 +44,18 @@ body section#cuerpo p{
 	width: 100%;
 }
 #contenedor #cuerpo{
-	
-	background: white;
+	background: rgba(248, 246, 242, 0.94);
 	height: auto;
 	margin:0 auto;
 	margin-bottom: 100px;
 	width: 1002px;
 
 }
-
+.art-box{
+	background-color: rgba(2, 2, 2, 0.12);
+}
 
 .art-destacado{
-	background-color: grey;
 	display: inline-block;
 	height: 300px;
 	margin:1%;
@@ -44,16 +64,14 @@ body section#cuerpo p{
 }
 
 .art-nivel1{
-	background-color: grey;
 	display: inline-block;
 	height: 300px;
-	margin:1%;
+	margin:1% 1% 1% 0.5%;
 	vertical-align: top;
-	width: 40%;
+	width: 41%;
 }
 
 .art-nivel2{
-	background-color: peru;
 	display: inline-block;
 	height: 300px;
 	margin-left:1%;
@@ -66,11 +84,10 @@ body section#cuerpo p{
 }
 
 .slider{
-	background-color: grey;
 	display: inline-block;
 	height: 300px;
 	width: 56%;
-	margin:1%;
+	margin:1% 0.5% 1% 1%;
 }
 
 .titulo1{
