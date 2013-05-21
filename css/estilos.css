@@ -17,11 +17,12 @@ body section#cuerpo h1, body section#cuerpo h2{
 	padding: 10px 5%;
 }
 
-body section#cuerpo p{
+body section#cuerpo article p{
 	font-family: 'Lato', arial;
 	font-size: 1.2em;
 	text-align: justify;
 	margin: 15px 5%;
+	padding: 0px;
 }
 #h-art-en{
 	background-color: rgba(143,190,0,0.6);
@@ -94,6 +95,21 @@ body section#cuerpo p{
 
 	font-size: 1.4em;
 	margin: 10px 5%;
+}
+
+.btn-masinfo{
+	color: white;
+	background-color: rgba(226, 129, 23,0.9);
+	padding: 15px;
+	border-radius: 5px;
+	display: block;
+	width: 60%;
+	height: auto;
+	margin:0 auto;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 300;
+	box-shadow: 0px 3px 0px rgb(194, 107, 12);
 }
 
 

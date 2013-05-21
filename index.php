@@ -26,42 +26,45 @@
 	 						unas por la inmensa cantidad de energía que contienen, y otras porque son capaces de regenerarse por medios 
 	 						naturales.
 	 					</p>
-	 					<p>
-	 						Ilecnova te brinda calidad en sus servicios para un mejor desempeño de tu sistema. Estamos seguros de 
-	 						que un buen diseño permite obtener grandes... más
-	 					</p>
+	 					<a href="#" class="btn-masinfo">Más informacion</a>
 	 			</article><!--
  			--><article class="art-nivel2 art-box">
 	 				<h2 id="h-art-so" class="titulo1">Sistema Solar</h2>
 	 				<p>
-
-	 				</p>
-	 				<p>
-	 				</p>
+	 						La energía renovable es aquella la energía que se obtiene de fuentes naturales virtualmente inagotables, 
+	 						unas por la inmensa cantidad de energía que contienen, y otras porque son capaces...
+	 					</p>
+	 					<a href="#" class="btn-masinfo">Más informacion</a>
 	 			</article><!--
 	 			--><article class="art-nivel2 art-box">
 	 				<h2 id="h-art-eo" class="titulo1">Sistema Eolico</h2>
 	 				<p>
-
-	 				</p>
-	 				<p>
-	 				</p>
+	 						La energía renovable es aquella la energía que se obtiene de fuentes naturales virtualmente inagotables, 
+	 						unas por la inmensa cantidad de energía que contienen, y otras porque son capaces...
+	 					</p>
+	 					<a href="#" class="btn-masinfo">Más informacion</a>
 	 			</article><!--
 	 			--><article class="art-nivel2 art-box">
 	 				<h2 id="h-art-hi" class="titulo1">Sistema Hibrido Solar</h2>
 	 				<p>
-
-	 				</p>
-	 				<p>
-	 				</p>
+	 						La energía renovable es aquella la energía que se obtiene de fuentes naturales virtualmente inagotables, 
+	 						unas por la inmensa cantidad de energía que contienen, y otras porque son capaces...
+	 					</p>
+	 					<a href="#" class="btn-masinfo">Más informacion</a>
 	 			</article><!--
 	 			--><article class="art-destacado art-box">
 	 				<h2 id="h-art-in" class="titulo1">Interconexion a la Red</h2>
 	 				<p>
-
+	 					La energía renovable es aquella la energía que se obtiene de fuentes naturales virtualmente inagotables, 
+	 					unas por la inmensa cantidad de energía que contienen, y otras porque son capaces de regenerarse por medios 
+	 					naturales.
 	 				</p>
 	 				<p>
+	 					La energía renovable es aquella la energía que se obtiene de fuentes naturales virtualmente inagotables, 
+	 					unas por la inmensa cantidad de energía que contienen, y otras porque son capaces de regenerarse por medios 
+	 					naturales.
 	 				</p>
+	 				<a href="#" class="btn-masinfo">Más informacion</a>
 	 			</article>
  		</section>
 		<?php include("scripts/footer.php"); ?>
