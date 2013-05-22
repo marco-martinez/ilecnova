@@ -54,17 +54,22 @@
 	 			</article><!--
 	 			--><article class="art-destacado art-box">
 	 				<h2 id="h-art-in" class="titulo1">Interconexion a la Red</h2>
-	 				<p>
+	 				<p class="art-destacado-p">
 	 					La energía renovable es aquella la energía que se obtiene de fuentes naturales virtualmente inagotables, 
 	 					unas por la inmensa cantidad de energía que contienen, y otras porque son capaces de regenerarse por medios 
 	 					naturales.
-	 				</p>
-	 				<p>
+	 				</p><!--
+	 				--><p class="art-destacado-p">
 	 					La energía renovable es aquella la energía que se obtiene de fuentes naturales virtualmente inagotables, 
 	 					unas por la inmensa cantidad de energía que contienen, y otras porque son capaces de regenerarse por medios 
 	 					naturales.
-	 				</p>
-	 				<a href="#" class="btn-masinfo">Más informacion</a>
+	 				</p><!--
+	 				-->
+		 					<figure class="art-destacado-p">
+		 						<img src="img/medidor.jpg" />
+		 						<figcaption>CFE</figcaption>
+		 					</figure>
+	 				<a href="#" class="btn-masinfo btn-destacado">Más informacion</a>
 	 			</article>
  		</section>
 		<?php include("scripts/footer.php"); ?>

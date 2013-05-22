@@ -17,6 +17,23 @@ body section#cuerpo h1, body section#cuerpo h2{
 	padding: 10px 5%;
 }
 
+body section#cuerpo article figure{
+	position: relative;
+	vertical-align: top;
+}
+body section#cuerpo article figure img{
+	height: 150px;
+	width:100%;
+}
+
+body section#cuerpo article figure figcaption{
+	position: absolute;
+	top: 116px;
+	padding: 10px 0px 5px 3%;
+	background-color: rgba(0,0,0,0.5);
+	width: 97%;
+}
+
 body section#cuerpo article p{
 	font-family: 'Lato', arial;
 	font-size: 1.2em;
@@ -52,6 +69,10 @@ body section#cuerpo article p{
 	width: 1002px;
 
 }
+.btn-destacado{
+	width:25% !important;
+}
+
 .art-box{
 	background-color: rgba(2, 2, 2, 0.12);
 }
@@ -62,6 +83,12 @@ body section#cuerpo article p{
 	margin:1%;
 	vertical-align: top;
 	width: 98%;
+}
+
+.art-destacado-p{
+	display: inline-block;
+	margin:15px 0%  15px 2.2% !important;
+	width: 30%;
 }
 
 .art-nivel1{
@@ -111,6 +138,7 @@ body section#cuerpo article p{
 	font-weight: 300;
 	box-shadow: 0px 3px 0px rgb(194, 107, 12);
 }
+
 
 
 @media screen and (max-width:1052px){
