@@ -27,6 +27,7 @@ body section#cuerpo article figure img{
 }
 
 body section#cuerpo article figure figcaption{
+	color:	white;
 	position: absolute;
 	top: 116px;
 	padding: 10px 0px 5px 3%;
