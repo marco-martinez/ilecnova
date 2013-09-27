@@ -4,12 +4,12 @@
 		<h3 class="menu-estandar">Solar</h3>
 		<a id="btn-solar" onclick="mostrarOcultar('menu-solar')" class="menu-movil"><h3>Solar</h3></a>
 		<ul id="menu-solar">
-			<li><a href="#">Baterias Solares</a></li>
-			<li><a href="#">Bombas Solares</a></li>
-			<li><a href="#">Calentadores Solares</a></li>
-			<li><a href="#">Controladores Solares</a></li>
-			<li><a href="#">Inversores Solares</a></li>
-			<li><a href="#">Paneles Solares</a></li>
+			<li><a href="baterias.php">Baterías Solares</a></li>
+			<li><a href="bombeo-solar.php">Bombeo Solar</a></li>
+			<li><a href="calentadores-solares.php">Calentadores Solares</a></li>
+			<li><a href="controladores.php">Controladores Solares</a></li>
+			<li><a href="inversores.php">Inversores Solares</a></li>
+			<li><a href="paneles-solares-fotovoltaicos.php">Paneles Solares</a></li>
 		</ul>
 	</div>
 	<div id="footer-accesorios" class="footer-div">
@@ -20,17 +20,17 @@
 		</ul>
 	</div>
 	<div id="footer-refrigeracion" class="footer-div">
-		<h3 class="menu-estandar">Refrigeracion</h3>
+		<h3 class="menu-estandar">Refrigeración</h3>
 		<a id="btn-refrigeracion" onclick="mostrarOcultar('menu-refrigeracion')" class="menu-movil"><h3>Refrigeracion</h3></a>
 		<ul id="menu-refrigeracion">
-			<li><a href="#">Refrigeracion Solar</a></li>
+			<li><a href="refrigeracion-solar.php">Refrigeración Solar</a></li>
 		</ul>
 	</div>
 	<div id="footer-eolica" class="footer-div">
-		<h3 class="menu-estandar">Eolica</h3>
+		<h3 class="menu-estandar">Eólica</h3>
 		<a id="btn-eolica" onclick="mostrarOcultar('menu-eolica')" class="menu-movil"><h3>Eolica</h3></a>
 		<ul id="menu-eolica">
-			<li><a href="#">Generadores Eolicos</a></li>
+			<li><a href="generadores-eolicos-de-energia.php">Generadores Eólicos</a></li>
 		</ul>
 	</div>
 	<div id="footer-empresa" class="footer-div">
@@ -38,18 +38,18 @@
 		<a id="btn-empresa" onclick="mostrarOcultar('menu-empresa')" class="menu-movil"><h3>Empresa</h3></a>
 		<ul id="menu-empresa">
 			<li><a href="#">Blog</a></li>
-			<li><a href="#">Contacto</a></li>
-			<li><a href="#">Historia</a></li>
-			<li><a href="#">Mapa</a></li>
-			<li><a href="#">Proyectos</a></li>
+			<li><a href="contactanos.php">Contacto</a></li>
+			<li><a href="historia-y-proyectos.php">Historia</a></li>
+			<li><a href="sitemap.php">Mapa</a></li>
+			<li><a href="historia-y-proyectos.php">Proyectos</a></li>
 		</ul>
 	</div>
 	<div id="footer-recursos" class="footer-div">
 		<h3 class="menu-estandar">Recursos</h3>
 		<a id="btn-recursos" onclick="mostrarOcultar('menu-recursos')" class="menu-movil"><h3>Recursos</h3></a>
 		<ul id="menu-recursos">
-			<li><a href="#">Calculo de Consumo</a></li>
-			<li><a href="#">Catalogos</a></li>
+			<li><a href="#">Cálculo de Consumo</a></li>
+			<li><a href="#">Catálogos</a></li>
 		</ul>
 	</div>
 	<div id="redes-sociales">
@@ -62,7 +62,7 @@
 			</a>	
 		</div><!--
 		--><div id="div-facebook" class="footer-div-redes-sociales">
-			<a href="#">
+			<a href="https://www.facebook.com/ilecnova.energiarenovable">
 				<img src="img/facebook.png"/>
 				<p>
 					/ilecnova
@@ -70,7 +70,7 @@
 			</a>
 		</div><!--
 		--><div id="div-twitter" class="footer-div-redes-sociales">
-			<a href="#">
+			<a href="https://twitter.com/ILECNOVA">
 				<img src="img/twitter.png"/>
 				<p>
 					@ilecnova
@@ -81,7 +81,7 @@
 </div><!---->
 	<div id="copyright">
 		<p>
-			Ilecnova: Ingeniería en Energía Renovable. Todos los derechos reservados.
+			Ilecnova: Ingenieria en Energía Renovable en la Riviera Maya. Ilecnova 2013. 
 		</p>
 	</div>
 </footer>

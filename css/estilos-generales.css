@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:100,300,400,100italic|Muli:300,400|Oxygen:400,300,700);
+
+body{
+	background-image: url(../img/back-grass.jpg);
+	background-position: center;
+	font-family: "Muli", sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+#contenedor{
+	margin:0 auto;
+	width: 100%;
+}
+#contenedor #cuerpo{
+	background: rgba(248, 246, 242, 0.94);
+	height: auto;
+	margin:0 auto;
+	margin-bottom: 100px;
+	width: 1002px;
+
+}
+
+.shadow {
+	box-shadow: 0px 6px 15px 0px black;
+}
+
+
+@media screen and (max-width:1052px){
+	 	#contenedor{
+		width: 100%;
+	}
+
+
+	#contenedor section#cuerpo{
+		width: 95%;
+	}
+}
+
+@media screen and (max-width:1024px){
+
+	#contenedor{
+		width: 100%;
+	}
+	#contenedor section#cuerpo{
+		width: 738px;
+	}
+}
+
+/* Empieza vista tablet 768px */
+@media screen and (max-width:768px){
+	#contenedor{
+		width: 100%;
+	}
+	#contenedor section#cuerpo{
+		width: 95%;
+	}
+}
+
+/* Empieza vista movil 620px */
+@media screen and (max-width:620px){
+	#contenedor{
+		width: 100%;
+	}
+	#contenedor section#cuerpo{
+		width: 438px;
+	}
+}
+
+@media screen and (max-width: 479px){
+		#contenedor{
+		width: 100%;
+	}
+	#contenedor section#cuerpo{
+		margin-bottom: 0px;
+		width: 100%;
+	}
+}

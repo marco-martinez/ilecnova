@@ -1,0 +1,60 @@
+body section#cuerpo h1{
+	color:rgb(82, 81, 81);
+	font-family: 'Lato', Arial;
+	font-size: 3em;
+	font-weight: 300;
+	margin: 0;
+	padding: 15px 5%;
+	text-align: center;
+}
+
+body section#cuerpo article.articulo{
+	padding: 5% 0 5% 0;
+	height: auto;
+	width: 96%;
+	background-color: rgba(189, 197, 182, 0.3);
+	display: inline-block;
+	margin: 15px 0 15px 2%;
+}
+
+body section#cuerpo article.articulo p{
+	text-align: center;
+	font-size: 1.2em
+}
+
+
+@media screen and (max-width:1052px){
+
+}
+
+@media screen and (max-width:1024px){
+	body section#cuerpo h1{
+		font-size: 1.2em;
+	}
+}
+
+/* Empieza vista tablet 768px */
+@media screen and (max-width:768px){
+	
+
+}
+
+
+/* Empieza vista movil 620px */
+@media screen and (max-width:620px){
+
+	body section#cuerpo article.articulo{
+		height: auto;
+		width: 90%;
+		margin: 15px 5%;
+	}
+
+	body section#cuerpo h1{
+		font-weight: 300;
+	}
+
+}
+
+@media screen and (max-width: 479px){
+	
+}

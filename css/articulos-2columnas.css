@@ -1,0 +1,141 @@
+body section#cuerpo h1, body section#cuerpo h2{
+	color: whitesmoke;
+	font-family: 'Lato', Arial;
+	font-size: 1.4em;
+	font-weight: 100;
+	margin: 0;
+	padding: 15px 5%;
+}
+
+body section#cuerpo article.articulo{
+	height: auto;
+	width: 55%;
+	background-color: rgba(189, 197, 182, 0.3);
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 0 15px 2%;
+}
+
+body section#cuerpo article.galeria{
+	height: 900px;
+	width: 39%;
+	background-color: rgba(189, 197, 182, 0.3);
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 0 15px 2%;
+}
+
+body section#cuerpo article figure{
+	height: auto;
+	overflow: hidden;
+	margin: 15px 5%;
+	display: inline-block;
+}
+
+body section#cuerpo article figure figcaption{
+	font-size: 0.9em;
+}
+
+body section#cuerpo article figure img{
+	display: block;
+	width:100%;
+}
+
+body section#cuerpo article p{
+	font-family: 'Lato', arial;
+	font-size: 1.2em;
+	text-align: justify;
+	margin: 15px 5%;
+	padding: 0px;
+	display: inline-block;
+}
+
+body section#cuerpo article div{
+	display: inline-block;
+	width: 90%;
+	margin: 15px 5%;
+	text-align: right;
+}
+
+body section#cuerpo article div a{
+	background-color: rgba(226, 129, 23,0.9);
+	padding: 15px;
+	text-decoration: none;
+	color:whitesmoke;
+	display: inline-block;
+	text-align: center;
+}
+
+.energia-solar-h{
+	background-color: rgba(221, 214, 46, 0.85);
+}
+
+.energia-eolica-h{
+	background-color: rgba(46, 186, 221, 0.85);
+}
+
+.energia-ahorro-h{
+	background-color: rgba(124, 187, 89, 0.85);
+}
+
+.energia-riviera-h{
+	background-color: rgba(87, 162, 45, 0.85);
+}
+
+.sistema-fotovoltaico-h{
+	background-color: rgba(207, 216, 5, 0.85);
+}
+
+.sistema-eolico-h{
+	background-color: rgba(15, 144, 177, 0.85);
+}
+
+.sistema-hibrido-h{
+	background-color: rgba(213, 147, 31, 0.85);
+}
+
+.sistema-interconexion-h{
+	background-color: rgba(88, 153, 6, 0.6);
+}
+
+
+@media screen and (max-width:1052px){
+
+}
+
+@media screen and (max-width:1024px){
+	body section#cuerpo h1, body section#cuerpo h2{
+		font-size: 1.2em;
+	}
+
+	body section#cuerpo article p, a{
+		font-size: 1em;
+	}
+}
+
+/* Empieza vista tablet 768px */
+@media screen and (max-width:768px){
+	body section#cuerpo article div a{
+	margin-bottom: 5px;
+}
+
+}
+
+
+/* Empieza vista movil 620px */
+@media screen and (max-width:620px){
+
+	body section#cuerpo article.articulo, body section#cuerpo article.galeria{
+		height: auto;
+		width: 90%;
+		margin: 15px 5%;
+	}
+	body section#cuerpo h1, body section#cuerpo h2{
+		font-weight: 300;
+	}
+
+}
+
+@media screen and (max-width: 479px){
+	
+}

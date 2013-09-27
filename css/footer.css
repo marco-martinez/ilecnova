@@ -3,7 +3,7 @@
 footer {
 
 	background: rgba(248, 246, 242, 0.94);
-	box-shadow: 0px 0px 20px 3px black;
+	box-shadow: 0px 0px 10px 1px black;
 	height: 347px;
 	margin:0 auto;
 	padding-top: 70px;
@@ -358,6 +358,10 @@ footer #contenedor-footer{
 
 /* EMPIEZA ESTILOS QUE SE MOSTRARA HASTA UNA RESOLUCION MAXIMA DE 479 PX - VISTA MOVIL */
 @media screen and (max-width: 479px){
+	footer{
+		box-shadow: none;
+	}
+
 	footer #contenedor-footer{
 		width: 320px;
 	}

@@ -1,0 +1,154 @@
+body section#cuerpo h1, body section#cuerpo h2{
+	color: whitesmoke;
+	font-family: 'Lato', Arial;
+	font-size: 1.4em;
+	font-weight: 100;
+	margin: 0;
+	padding: 15px 5%;
+	background-color: rgba(46, 186, 221, 0.85);
+}
+
+body section#cuerpo article.articulo{
+	height: auto;
+	width: 55%;
+	background-color: rgba(189, 197, 182, 0.3);
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 0 15px 2%;
+}
+
+body section#cuerpo article.proyectos-destacados{
+	width: 39%;
+	background-color: rgba(189, 197, 182, 0.3);
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 0 15px 2%;
+}
+
+body section#cuerpo article.proyectos{
+	width: 96%;
+	margin: 15px 0 15px 2%;
+	display: inline-block;
+}
+
+body section#cuerpo article.proyectos article{
+	margin: 15px 2%;
+	padding: 5px 2%;
+	background-color: rgba(255, 255, 255, 0.47);
+}
+
+body section#cuerpo article.proyectos article h3{
+	color: rgba(202, 61, 61, 1);
+}
+
+body section#cuerpo article.proyectos article p{
+	margin: 0px;
+	width: 70%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+body section#cuerpo article.proyectos article figure{
+	width: 25%;
+	display: inline-block;
+	margin: 5px 2%;
+	vertical-align: middle;
+}
+
+body section#cuerpo article.proyectos article figure figcaption{
+	font-size: 0.8em;
+	color: grey;
+}
+
+body section#cuerpo article.proyectos article figure img{
+	width: 100%;
+	overflow: hidden;
+
+}
+
+body section#cuerpo article p{
+	font-family: 'Lato', arial;
+	font-size: 1.2em;
+	text-align: justify;
+	margin: 15px 5%;
+	padding: 0px;
+	display: inline-block;
+}
+
+body section#cuerpo article.proyectos-destacados p{
+	background-color: rgba(255, 255, 255, 0.47);
+	padding: 5px 2%;
+	border-left: rgba(46, 186, 221, 0.85) 4px solid;
+}
+
+body section#cuerpo article.proyectos-destacados p a{
+	text-decoration: none;
+	color: grey;
+}
+
+body section#cuerpo article.proyectos-destacados p a:hover{
+	text-decoration: underline;
+	color: rgba(46, 186, 221, 0.95);
+}
+
+body section#cuerpo article div{
+	display: inline-block;
+	width: 90%;
+	margin: 15px 5%;
+	text-align: right;
+}
+
+
+@media screen and (max-width:1052px){
+
+}
+
+@media screen and (max-width:1024px){
+	body section#cuerpo h1, body section#cuerpo h2{
+		font-size: 1.2em;
+	}
+
+	body section#cuerpo article p, a{
+		font-size: 1em;
+	}
+}
+
+/* Empieza vista tablet 768px */
+@media screen and (max-width:768px){
+	
+
+}
+
+
+/* Empieza vista movil 620px */
+@media screen and (max-width:620px){
+
+	body section#cuerpo article.articulo, body section#cuerpo article.proyectos-destacados{
+		height: auto;
+		width: 90%;
+		margin: 15px 5%;
+	}
+	body section#cuerpo h1, body section#cuerpo h2{
+		font-weight: 300;
+	}
+
+	body section#cuerpo article.proyectos article p{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	body section#cuerpo article.proyectos article{
+		padding: 5px 4%;
+	}
+
+	body section#cuerpo article.proyectos article figure{
+		width: 100%;
+		margin: 5px 0;
+	}
+
+}
+
+@media screen and (max-width: 479px){
+	
+}

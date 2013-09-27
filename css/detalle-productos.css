@@ -1,0 +1,131 @@
+body section#cuerpo h1, body section#cuerpo h2{
+	color: whitesmoke;
+	font-family: 'Lato', Arial;
+	font-size: 1.4em;
+	font-weight: 100;
+	margin: 0;
+	padding: 15px 5%;
+	background-color: rgba(46, 186, 221, 0.85);
+}
+
+body section#cuerpo article.articulo{
+	height: auto;
+	width: 55%;
+	background-color: rgba(189, 197, 182, 0.3);
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 0 15px 2%;
+}
+
+body section#cuerpo article.fotos-producto{
+	width: 39%;
+	background-color: rgba(189, 197, 182, 0.3);
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 0 15px 2%;
+}
+
+body section#cuerpo article.fotos-producto figure{
+	margin: 10px 0 10px 6%;
+	width: 40%;
+	display: inline-block;
+}
+
+body section#cuerpo article.fotos-producto figure img{
+	width: 100%;
+}
+
+body section#cuerpo article.datos-tecnicos{
+	width: 96%;
+	margin: 15px 0 15px 2%;
+	display: inline-block;
+	background-color: rgba(189, 197, 182, 0.3);
+}
+
+body section#cuerpo article.datos-tecnicos div.columna{
+	width: 20%;
+	margin: 15px 0 15px 2%;
+	display: inline-block;
+	vertical-align: top;
+	background-color: rgb(174, 203, 206);
+	padding: 10px 1%;
+
+}
+
+body section#cuerpo article.datos-tecnicos div.columna h3{
+	font-size: 1em;
+	margin: 5px 0px;
+	padding: 5px;
+}
+
+body section#cuerpo article.datos-tecnicos div.columna div.fila{
+	width: 48%;
+	display: inline-block;
+}
+
+
+
+body section#cuerpo article.datos-tecnicos article h3{
+	color: rgba(202, 61, 61, 1);
+}
+
+body section#cuerpo article p{
+	font-family: 'Lato', arial;
+	font-size: 1.2em;
+	text-align: justify;
+	margin: 15px 5%;
+	padding: 0px;
+	display: inline-block;
+}
+
+
+@media screen and (max-width:1052px){
+
+}
+
+@media screen and (max-width:1024px){
+	body section#cuerpo h1, body section#cuerpo h2{
+		font-size: 1.2em;
+	}
+
+	body section#cuerpo article p, a{
+		font-size: 1em;
+	}
+
+	body section#cuerpo article.datos-tecnicos div.columna{
+		width: 44%;
+	}
+}
+
+/* Empieza vista tablet 768px */
+@media screen and (max-width:768px){
+	
+
+}
+
+
+/* Empieza vista movil 620px */
+@media screen and (max-width:620px){
+
+	body section#cuerpo article.articulo, body section#cuerpo article.fotos-producto{
+		height: auto;
+		width: 90%;
+		margin: 15px 5%;
+	}
+
+	body section#cuerpo h1, body section#cuerpo h2{
+		font-weight: 300;
+	}
+
+	body section#cuerpo article.proyectos article{
+		padding: 5px 4%;
+	}
+
+}
+
+@media screen and (max-width: 479px){
+	body section#cuerpo article.datos-tecnicos div.columna{
+		width: 90%;
+		margin-left: 4%;
+	}
+}

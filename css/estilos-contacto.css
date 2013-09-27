@@ -1,0 +1,188 @@
+body section#cuerpo h1, body section#cuerpo h2{
+	color:white;
+	background-color: rgba(38, 38, 38, 9.5);
+	font-family: 'Lato', Arial;
+	font-size: 1.4em;
+	font-weight: 300;
+	margin: 0;
+	padding: 15px 5%;
+}
+
+body section#cuerpo article.articulo{
+	height: auto;
+	width: 47%;
+	background-color: rgba(189, 197, 182, 0.3);
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 0 15px 2%;
+}
+
+body section#cuerpo article figure{
+	margin: 15px 5%;
+	width: 90%;
+	display: inline-block;
+}
+
+
+body section#cuerpo article figure img{
+	width: 10%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+body section#cuerpo article figure figcaption{
+	font-size: 1.2em;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+body section#cuerpo article p{
+	margin: 15px 5%;
+}
+
+form{
+	margin: 15px 5%;
+	width: 80%;
+	padding-left: 10%;
+}
+
+body section#cuerpo article form p{
+	margin:0px;
+	display: block;
+}
+
+body section#cuerpo article form p label{
+	width:25%;
+	display: block;
+	margin: 15px 0px 5px 0;
+	font-weight: 400;
+}
+
+body section#cuerpo article form p input:focus, textarea:focus{
+	border: rgb(11, 193, 238) 1.5px solid;
+	background-color: rgb(225, 247, 250);
+}
+
+body section#cuerpo article form p input{
+	width: 70%;
+	display: block;
+	height: 35px;
+}
+
+body section#cuerpo article form textarea{
+	width: 90%;
+	max-width: 90%;
+	max-height: 300px;
+}
+
+.style-input{
+	border-radius: 4px;
+	background-color: rgba(250, 250, 250, 1);
+	border: rgb(238, 138, 11) 1.5px solid;
+	color:grey;
+}
+
+.btn{
+	display: block;
+	margin: 15px 0%;
+	float: right;
+	padding: 15px 15%;
+	background-color: rgba(226, 129, 23,0.9);
+	border: rgb(177, 101, 4) 1.5px solid;
+	color: white;
+}
+
+#map-canvas{
+	width: 100%;
+	height: 300px;
+}
+
+#map-canvas div div div div div div div div div div#content{
+	font-size: 0.9em;
+}
+
+#map-canvas div div div div div div div div div div#content p, h3{
+	margin: 15px 0px 0px 0px;
+	padding: 0px;
+}
+body section#cuerpo article div.error{
+	display: none;
+	background-color: red;
+	width: 70%;
+	margin-left: 15%;
+	border-radius: 0px 0px 5px 5px;
+}
+body section#cuerpo article div.error p.p_error{
+	color: white;
+	margin: 0px;
+	padding: 3%;
+}
+
+@media screen and (max-width:1052px){
+
+}
+
+@media screen and (max-width:1024px){
+	body section#cuerpo h1, body section#cuerpo h2{
+		font-size: 1.2em;
+	}
+}
+
+/* Empieza vista tablet 768px */
+@media screen and (max-width:768px){
+	
+
+}
+
+
+/* Empieza vista movil 620px */
+@media screen and (max-width:620px){
+
+	body section#cuerpo article.articulo{
+		height: auto;
+		width: 90%;
+		margin: 15px 5%;
+	}
+
+	body section#cuerpo h1, body section#cuerpo h2{
+		font-weight: 300;
+	}
+
+	form{
+		padding: 0;
+		width: 90%
+	}
+
+	body section#cuerpo article form fielset p input{
+		width: 95%;
+	}
+
+	body section#cuerpo article form fielset textarea{
+		width: 99%;
+		max-width: 99%;
+		max-height: 300px;
+	}
+
+	.style-input{
+		border-radius: 0;
+	}
+
+	.btn{
+		width: 60%;
+		float: none;
+		margin: 15px auto;
+	}
+
+	body section#cuerpo article figure img{
+		width: 17%;
+	}
+
+	body section#cuerpo article figure figcaption div span{
+		font-size: 0.8em;
+	}
+
+}
+
+@media screen and (max-width: 479px){
+	
+}

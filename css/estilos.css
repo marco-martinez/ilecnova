@@ -19,7 +19,7 @@ body section#cuerpo h1, body section#cuerpo h2{
 
 body section#cuerpo article figure{
 	border-bottom: 3px rgba(226, 129, 23,0.9) solid;
-	height: 150px;
+	height: auto;
 	overflow: hidden;
 	vertical-align: top;
 }
@@ -64,32 +64,35 @@ body section#cuerpo article p{
 	width: 1002px;
 
 }
-.btn-destacado{
-	width:25% !important;
+
+body section#cuerpo article a.btn-destacado{
+	width:25%;
+	left:35%;
 }
 
 .art-box{
 	background-color: rgba(2, 2, 2, 0.12);
+	position: relative;
 }
 
 .art-destacado{
 	display: inline-block;
-	height: auto;
+	height: 305px;
 	margin:1%;
 	vertical-align: top;
 	width: 98%;
 }
 
-.art-destacado-p{
+body section#cuerpo article p.art-destacado-p, body section#cuerpo article figure.art-destacado-figure{
 	display: inline-block;
-	margin:15px 0%  15px 2.2% !important;
+	margin:15px 0%  15px 2.2%;
 	width: 30%;
 	height: auto;
 }
 
 .art-nivel1{
 	display: inline-block;
-	height: auto;
+	height: 420px;
 	margin:1% 1% 1% 0.5%;
 	vertical-align: top;
 	width: 41%;
@@ -97,7 +100,7 @@ body section#cuerpo article p{
 
 .art-nivel2{
 	display: inline-block;
-	height: auto;
+	height: 730px;
 	margin-left:1%;
 	vertical-align: top;
 	width: 32%;
@@ -109,7 +112,7 @@ body section#cuerpo article p{
 
 .slider{
 	display: inline-block;
-	height: 300px;
+	height: 420px;
 	width: 56%;
 	margin:1% 0.5% 1% 1%;
 }
@@ -123,19 +126,25 @@ body section#cuerpo article p{
 .btn-masinfo{
 	color: white;
 	background-color: rgba(226, 129, 23,0.9);
-	padding: 15px;
+	padding: 8px;
 	border-radius: 5px;
 	display: block;
-	width: 60%;
+	width: 80%;
 	height: auto;
 	margin:0 auto;
-	margin-bottom: 15px;
+	bottom: 15px;
 	text-decoration: none;
 	text-align: center;
 	font-weight: 300;
 	box-shadow: 0px 3px 0px rgb(194, 107, 12);
+	position: absolute;
+	left: 7%;
 }
-
+.separador{
+	display: none;
+	height: 20%;
+	width: 100%;
+}
 
 
 @media screen and (max-width:1052px){
@@ -151,37 +160,105 @@ body section#cuerpo article p{
 
 @media screen and (max-width:1024px){
 
-#contenedor{
-	width: 100%;
-}
-#contenedor section#cuerpo{
-	width: 738px;
-}
+	#contenedor{
+		width: 100%;
+	}
+	#contenedor section#cuerpo{
+		width: 738px;
+	}
+	body section#cuerpo h1, body section#cuerpo h2{
+		font-size: 1em;
+	}
 
+	body section#cuerpo article p{
+		font-size: 1.15em;
+	}
+	body section#cuerpo article a{
+		font-size: 0.9em;
+	}
+
+	.art-destacado{
+		height: 330px;
+	}
 
 }
 
 
 /* Empieza vista tablet 768px */
 @media screen and (max-width:768px){
-#contenedor{
-	width: 100%;
-}
-#contenedor section#cuerpo{
-	width: 95%;
-}
+	#contenedor{
+		width: 100%;
+	}
+	#contenedor section#cuerpo{
+		width: 95%;
+	}
+
+	body section#cuerpo article p{
+		font-size: 1.04em;
+	}
 
 }
 
 
 /* Empieza vista movil 620px */
 @media screen and (max-width:620px){
-#contenedor{
-	width: 100%;
-}
-#contenedor section#cuerpo{
-	width: 438px;
-}
+	#contenedor{
+		width: 100%;
+	}
+	#contenedor section#cuerpo{
+		width: 438px;
+	}
+
+	.slider{
+		width: 98%;
+		margin: 5px 1%;
+	}
+
+	.art-nivel1{
+		height: auto;
+		margin: 0 1% 5px 1%;
+		width: 98%;
+	}
+
+	.art-nivel2{
+		height: auto;
+		margin: 0 1% 5px 1%;
+		width: 98%;
+	}
+
+	body section#cuerpo h1, body section#cuerpo h2{
+		font-size: 1.6em;
+		font-weight: 300;
+	}
+
+	.art-destacado{
+		height: auto;
+	}
+
+	body section#cuerpo article p.art-destacado-p{
+		margin: 15px 5%;
+		width: auto;
+	}
+
+	body section#cuerpo article figure.art-destacado-figure{
+		margin: 0px;
+		width: 100%;
+	}
+
+	body section#cuerpo article p{
+		font-size: 1.3em;
+		text-align: justify;
+	}
+
+	.separador{
+		display: block;
+		height: 55px;
+		width: 100%;
+	}
+	body section#cuerpo article a.btn-destacado{
+		width:80%;
+		left:7%;
+	}
 
 }
 
