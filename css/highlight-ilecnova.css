@@ -83,7 +83,13 @@ div#highlight div#navegation p a {
 	}
 
 
+@media screen and (max-width:1024px){
+	div#highlight div#navegation{
+		margin-top: 335px;
 
+	}
+
+}
 
 
 

@@ -56,25 +56,16 @@
 		<div id="div-googleplus" class="footer-div-redes-sociales">
 			<a href="https://plus.google.com/101816757805854672009">
 				<img src="img/googleplus.png"/>
-				<p>
-					/ilecnova
-				</p>
 			</a>	
 		</div><!--
 		--><div id="div-facebook" class="footer-div-redes-sociales">
 			<a href="https://www.facebook.com/ilecnova.energiarenovable">
 				<img src="img/facebook.png"/>
-				<p>
-					/ilecnova
-				</p>
 			</a>
 		</div><!--
 		--><div id="div-twitter" class="footer-div-redes-sociales">
 			<a href="https://twitter.com/ILECNOVA">
 				<img src="img/twitter.png"/>
-				<p>
-					@ilecnova
-				</p>
 			</a>
 		</div>
 	</div><!---->

@@ -81,7 +81,7 @@
 	 				provocando un flujo de los mismos a través de un material semiconductor. 
 		 			</p>
 		 			<p>
-		 				En México estamos arriba de la media mundial en cuanto a radiación solar, por lo que es casi un hecho que un sistema de este tipo seguro funciona.
+		 				En México estamos arriba de la media mundial en cuanto a radiación solar, por lo que es casi un hecho que un sistema de este tipo seguro funciona...
 		 			</p>
 	 					<div class="separador"></div>
 	 					<a href="sistema-solar-fotovoltaico.php" class="btn-masinfo">Más de sistemas fotovoltaicos</a>
@@ -91,12 +91,11 @@
 	 				<figure>
 	 						<img src="img/sistema-eolico.jpg" width="100%" height="auto"/>
 	 				</figure>
-	 					<p>Al igual que la energía Fotovoltaica, la energía eólica se puede utilizar tanto para sistemas aislados como en sistemas urbanos. 
-			 				Una de las principales ventajas de la energía eólica en comparación con la Energía Fotovoltaica es tiene mejor densidad energética, 
-			 				por lo que se puede generar más energía eléctrica con un menos de inversión.
+	 					<p>Al igual que la energía Fotovoltaica, la energía eólica se puede utilizar tanto para sistemas aislados como en sistemas urbanos.
 			 			</p>
 			 			<p>
-			 				Sin embargo es importante tener una estimación del recurso para que el sistema no fracase. En Ilecnova te ofrecemos...
+			 				Una de las principales ventajas de la energía eólica en comparación con la Energía Fotovoltaica es tiene mejor densidad energética, 
+			 				por lo que se puede generar más energía eléctrica con un menos de inversión...
 			 			</p>
 	 					<div class="separador"></div>
 	 					<a href="sistema-eolico.php" class="btn-masinfo">Más sobre sistemas eólicos</a>
@@ -112,8 +111,7 @@
 			 			</p>
 			 			<p>
 			 				La principal característica de estos sistemas es que pueden trabajar con poca inspección personal y puede tener un sin 
-			 				fin de aplicaciones, éntrelas que destacan: Telecomunicaciones, Iluminación en casas de campo, cercas eléctricas, Bombeo de agua, 
-			 				Refrigeración...
+			 				fin de aplicaciones, éntrelas que destacan...
 			 			</p>
 	 					<div class="separador"></div>
 	 					<a href="sistema-hibrido-solar.php" class="btn-masinfo">Más sobre sistemas híbridos</a>
